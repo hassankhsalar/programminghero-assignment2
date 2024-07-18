@@ -3,7 +3,7 @@
 /* default setup */
 *{
     margin: 0 auto;
-    /* background-color: rgba(0, 0, 0, 0.164); */
+    /* background-color: rgb(0, 0, 0); */
     
     
     
@@ -80,9 +80,15 @@ body {
     
 }
 .banner-text{
-    width: 600px;
+    width: 500px;
     height: 439px;
 
+}
+.banner-text span{
+
+                font-family: 'Miama', sans-serif;
+                 font-size: larger;
+                 font-weight: 900;
 }
 .banner-text h2{
     font-size: 78px;
@@ -102,6 +108,7 @@ body {
     background-image: url(../images/Images\ 2.png);
     width: 349px;
     height: 580px;
+    position: relative;
 }
 
 /* banner backup */
@@ -130,6 +137,7 @@ body {
 
 .dapp{
     margin-top: 28px;
+    margin-left: 14px;
     color: rgba(255, 255, 255, 1.00);
     background-color: rgba(36, 35, 35, 0.308);
     width: 224px;
@@ -141,3 +149,71 @@ body {
     padding: 16px 46px 16px 46px;
 }
 
+
+/* Banner float styles */
+.banner-float1{
+    width: 206px;
+    height: 96px;
+    border-radius: 12px;
+    background: rgba(255, 255, 255, 0.062);
+    backdrop-filter: blur(4px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    right: -130px;
+    top: 100px;
+}
+
+.banner-float1 h4{
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: 900;
+    text-align: center;
+
+}
+.banner-float1 p{
+    color: rgba(255, 255, 255, 0.65);
+    font-size: 13px;
+    font-weight: 400;
+    text-align: center;
+
+}
+
+#circle{
+    background: rgb(230, 83, 60);
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
+
+.banner-float2{
+    width: 206px;
+    height: 96px;
+    border-radius: 12px;
+    background: rgba(255, 255, 255, 0.062);
+    backdrop-filter: blur(4px);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    right: 190px;
+    top: 330px;
+}
+
+.banner-float2 h4{
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 900;
+    text-align: center;
+
+}
+.banner-float2 p{
+    color: rgba(255, 255, 255, 0.65);
+    font-size: 12px;
+    font-weight: 400;
+    text-align: center;
+
+}
