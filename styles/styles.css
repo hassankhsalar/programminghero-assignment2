@@ -275,3 +275,69 @@ flex-direction: column;
 font-size: 14px;
 font-weight: 400;
 }
+
+
+/* Run page styles */
+
+.run{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    width: 85%;
+    border-radius: 18px;
+    background-color: rgba(34, 34, 34, 1.00);
+    display: flex;
+    justify-content: space-between;
+}
+
+.run-text{
+    border: 2px solid seagreen;
+    padding: 40px 54px 40px 54px;
+    width: 443px;
+    height: 290px;
+}
+
+.run-text h3{
+    font-weight: 900;
+    font-size: 3rem;
+    color: rgba(255, 255, 255, 1.00);
+}
+
+.run-text p{
+    margin-top: 14px;
+    font-weight: 400;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.50);
+}
+
+.run-btn{
+    margin-top: 34px;
+    width: 224px;
+    height: 54px;
+    border-radius: 42px;
+    border: none;
+    padding: 16px 40px 16px 40px;
+    background-color: rgba(230, 83, 60, 1.00);
+    color: rgba(255, 255, 255, 1.00);
+    font-size: 1rem;
+    font-weight: 600;
+     
+}
+
+.run-img{
+    padding: 30px 32px 30px 32px;
+    border: 2px solid red;
+    border-radius: 18px;
+}
+
+
+.run-img img{
+    width: 366px;
+    height: 312px;  
+    border: 2px solid #ffffff;
+    border-radius: 18px;
+    overflow: hidden;
+    
+    /* background-position: center; */
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
+}
