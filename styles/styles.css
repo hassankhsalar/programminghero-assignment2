@@ -347,7 +347,7 @@ font-weight: 400;
 
 /* Meet our team styles */
 .mot{
-    background-color: rgb(78, 77, 77);
+    background-color: rgb(0, 0, 0);
     
 }
 .mot-txt{
@@ -388,95 +388,141 @@ font-weight: 400;
     
 }
 
-.mot-images img{
+/* Fresh image adding test */
+
+
+.img1{
+    background: linear-gradient(rgba(0, 0, 0, 0.20),rgba(0, 0, 0, 0.20)), url(/images/trainer1.png);
     width: 100%;
     height: 100%;
-    object-fit: cover;
     border-radius: 18px;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+.img2{
+    background: linear-gradient(rgba(0, 0, 0, 0.20),rgba(0, 0, 0, 0.20)), url(/images/trainer2.png);
+    width: 100%;
+    height: 100%;
+    border-radius: 18px;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+.img3{
+    background: linear-gradient(rgba(0, 0, 0, 0.20),rgba(0, 0, 0, 0.20)), url(/images/trainer3.png);
+    width: 100%;
+    height: 100%;
+    border-radius: 18px;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+.img4{
+    background: linear-gradient(rgba(0, 0, 0, 0.20),rgba(0, 0, 0, 0.20)), url(/images/trainer4.png);
+    width: 100%;
+    height: 100%;
+    border-radius: 18px;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+.img5{
+    background: linear-gradient(rgba(0, 0, 0, 0.20),rgba(0, 0, 0, 0.20)), url(/images/trainer5.png);
+    width: 100%;
+    height: 100%;
+    border-radius: 18px;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+.img6{
+    background: linear-gradient(rgba(0, 0, 0, 0.20),rgba(0, 0, 0, 0.20)), url(/images/trainer6.png);
+    width: 100%;
+    height: 100%;
+    border-radius: 18px;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
 }
 
-.mot-float1{
-    align-items: center;
-    position: relative;
-    right: -350px;
-    top: -380px;
+.mot-img-float h5{
+    margin-left: 20px;
+    margin-top: 250px;
+    font-weight: 900;
+    font-size: 1.2rem;
+    color: #ffffff;
+    }
+.mot-img-float p{
+    margin-left: 20px;
+    font-weight: 400;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.50);
 }
 
-.mot-float1 h5{
-font-weight: 900;
-font-size: 20px;
-}
-.mot-float1 p{
-font-weight: 400;
-font-size: 14px;
-}
+/* Fresh image adding test */ ^^^^^^^^^^^^^^
 
-.mot-float2{
-    align-items: center;
-    position: relative;
-    right: -580px;
-    top: -420px;
-}
-
-.mot-float2 h5{
-font-weight: 900;
-font-size: 20px;
-}
-.mot-float2 p{
-font-weight: 400;
-font-size: 14px;
-}
-
-.mot-float3{
-    align-items: center;
-    position: relative;
-    right: -770px;
-    top: -420px;
-}
-
-.mot-float3 h5{
-font-weight: 900;
-font-size: 20px;
-}
-.mot-float3 p{
-font-weight: 400;
-font-size: 14px;
-}
-
-.mot-float4{
+.feet{
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
     
 }
+.footleft{
+width: 443px;
+height: 176px;
+/* background-color: rgba(255, 255, 255, 0.10); */
+}
+.footleft h2{
+font-weight: 800;
+font-size: 4.2rem;
+color: rgba(230, 83, 60, 1.00);
+}
+.footleft p{
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 0.8rem;
+    /* color: rgba(255, 255, 255, 0.50); */
+    }
 
-.mot-float4 h5{
-font-weight: 900;
-font-size: 20px;
-}
-.mot-float4 p{
-font-weight: 400;
-font-size: 14px;
-}
-
-.mot-float5{
-    
-}
-
-.mot-float5 h5{
-font-weight: 900;
-font-size: 20px;
-}
-.mot-float5 p{
-font-weight: 400;
-font-size: 14px;
-}
-.mot-float6{
-    
+.footright{
+    border: 2px solid red;
+    display: flex;
 }
 
-.mot-float6 h5{
-font-weight: 900;
-font-size: 20px;
+.anchorcol1{
+    display: flex;
+    flex-direction: column;
 }
-.mot-float6 p{
-font-weight: 400;
-font-size: 14px;
+.anchorcol1 h4{
+    font-weight: 700;
+    font-size: 2rem;
+    color: #ffffff;
+}
+
+.anchorcol1 a{
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.anchorcol2{
+    display: flex;
+    flex-direction: column; 
+}
+.anchorcol2 h4{
+    font-weight: 700;
+    font-size: 2rem;
+    color: #ffffff;
+}
+.anchorcol2 a{
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 20px;
 }
