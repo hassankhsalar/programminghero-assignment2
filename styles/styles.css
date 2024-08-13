@@ -478,9 +478,13 @@ font-weight: 400;
 .footleft{
 width: 443px;
 height: 176px;
+
+
 /* background-color: rgba(255, 255, 255, 0.10); */
 }
 .footleft h2{
+    margin-top: 30px;
+    text-align: left;
 font-weight: 800;
 font-size: 4.2rem;
 color: rgba(230, 83, 60, 1.00);
@@ -489,41 +493,56 @@ color: rgba(230, 83, 60, 1.00);
     margin-top: 20px;
     font-weight: 400;
     font-size: 0.8rem;
+
     /* color: rgba(255, 255, 255, 0.50); */
     }
 
 .footright{
-    border: 2px solid red;
+    width: 514px;
+    height: 250px;
     display: flex;
 }
 
 .anchorcol1{
     display: flex;
     flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
 }
 .anchorcol1 h4{
     font-weight: 700;
-    font-size: 2rem;
-    color: #ffffff;
+    font-size: 1.5rem;
+    color: #030303;
 }
 
 .anchorcol1 a{
     text-decoration: none;
     font-weight: 400;
     font-size: 20px;
+    color: rgba(0, 0, 0, 0.589);
 }
 
 .anchorcol2{
     display: flex;
     flex-direction: column; 
+    justify-content: space-evenly;
+    text-align: center;
 }
 .anchorcol2 h4{
     font-weight: 700;
-    font-size: 2rem;
-    color: #ffffff;
+    font-size: 1.5rem;
+    color: #000000;
 }
 .anchorcol2 a{
     text-decoration: none;
     font-weight: 400;
     font-size: 20px;
+    color: rgba(0, 0, 0, 0.589);
+}
+
+
+.cpr{
+    width: 50%;
+    text-align: center;
+
 }
