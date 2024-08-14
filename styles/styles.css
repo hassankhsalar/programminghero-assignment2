@@ -3,7 +3,7 @@
 /* default setup */
 *{
     margin: 0 auto;
-    /* background-color: rgb(0, 0, 0); */
+    background-color: rgb(0, 0, 0);
     
     
     
@@ -13,7 +13,7 @@ body {
   }
 
   .frontpage{
-    background: linear-gradient(360deg, rgb(11, 11, 14), rgba(0, 0, 0, 0.788));
+    background: linear-gradient(360deg, rgba(50, 50, 54, 0.644), rgba(0, 0, 0, 0.788));
   }
 
   /* navbar styles */
@@ -85,7 +85,7 @@ body {
 
 }
 .banner-text span{
-
+                background-color: #00000000;
                 font-family: 'Miama', sans-serif;
                  font-size: larger;
                  font-weight: 900;
@@ -167,6 +167,7 @@ body {
 }
 
 .banner-float1 h4{
+    background-color: #00000000;
     color: #ffffff;
     font-size: 40px;
     font-weight: 900;
@@ -174,6 +175,7 @@ body {
 
 }
 .banner-float1 p{
+    background-color: #00000000;
     color: rgba(255, 255, 255, 0.65);
     font-size: 13px;
     font-weight: 400;
@@ -204,6 +206,9 @@ body {
 }
 
 .banner-float2 h4{
+
+    background-color: #00000000;
+
     color: #ffffff;
     font-size: 24px;
     font-weight: 900;
@@ -211,6 +216,8 @@ body {
 
 }
 .banner-float2 p{
+    background-color: #00000000;
+    
     color: rgba(255, 255, 255, 0.65);
     font-size: 12px;
     font-weight: 400;
@@ -282,7 +289,7 @@ font-weight: 400;
 .run{
     margin-top: 100px;
     margin-bottom: 100px;
-    width: 85%;
+    width: 75%;
     border-radius: 18px;
     background-color: rgba(34, 34, 34, 1.00);
     display: flex;
@@ -291,6 +298,7 @@ font-weight: 400;
 
 .run-text{
     /* border: 2px solid seagreen; */
+    background-color: #00000000;
     padding: 40px 54px 40px 54px;
     width: 443px;
     height: 290px;
@@ -298,11 +306,13 @@ font-weight: 400;
 
 .run-text h3{
     font-weight: 900;
+    background-color: #00000000;
     font-size: 3rem;
     color: rgba(255, 255, 255, 1.00);
 }
 
 .run-text p{
+    background-color: #00000000;
     margin-top: 14px;
     font-weight: 400;
     font-size: 14px;
@@ -324,6 +334,7 @@ font-weight: 400;
 }
 
 .run-img{
+    background-color: #00000000;
     padding: 30px 32px 30px 32px;
     /* border: 2px solid red; */
     border-radius: 18px;
@@ -342,6 +353,19 @@ font-weight: 400;
     /* background-position: center; */
     /* background-repeat: no-repeat; */
     /* background-size: cover; */
+}
+
+
+/* background color */
+.runpage{
+    background-color: #000000;
+}
+
+.habits-container{
+    background-color: #000000;
+}
+.feet{
+    background-color: #000000;
 }
 
 
@@ -389,6 +413,68 @@ font-weight: 400;
 }
 
 /* Fresh image adding test */
+
+.img1 h5{
+    background-color: #00000000;
+}
+.img1 p{
+    background-color: #00000000;
+}
+.img2 h5{
+    background-color: #00000000;
+}
+.img2 p{
+    background-color: #00000000;
+}
+.img3 h5{
+    background-color: #00000000;
+}
+.img3 p{
+    background-color: #00000000;
+}
+.img4 h5{
+    background-color: #00000000;
+}
+.img4 p{
+    background-color: #00000000;
+}
+.img5 h5{
+    background-color: #00000000;
+}
+.img5 p{
+    background-color: #00000000;
+}
+.img6 h5{
+    background-color: #00000000;
+}
+.img6 p{
+    background-color: #00000000;
+}
+
+.banner{
+    
+    background-color: #00000000;
+   
+}
+
+.banner-text{
+    background-color: #00000000;
+}
+.banner-text h2{
+    background-color: #00000000;
+}
+.banner-text p{
+    background-color: #00000000;
+}
+
+.banner-img{
+    background-color: #00000000;
+}
+
+.banner-float2 h4{
+    background-color: #00000000;
+}
+
 
 
 .img1{
@@ -469,6 +555,7 @@ font-weight: 400;
 /* Fresh image adding test */
 
 .feet{
+    margin-top: 30px;
     display: flex;
     width: 50%;
     justify-content: space-between;
@@ -494,7 +581,7 @@ color: rgba(230, 83, 60, 1.00);
     font-weight: 400;
     font-size: 0.8rem;
 
-    /* color: rgba(255, 255, 255, 0.50); */
+    color: rgba(255, 255, 255, 0.50);
     }
 
 .footright{
@@ -512,14 +599,14 @@ color: rgba(230, 83, 60, 1.00);
 .anchorcol1 h4{
     font-weight: 700;
     font-size: 1.5rem;
-    color: #030303;
+    color: #ffffff;
 }
 
 .anchorcol1 a{
     text-decoration: none;
     font-weight: 400;
-    font-size: 20px;
-    color: rgba(0, 0, 0, 0.589);
+    font-size: 18px;
+    color: rgba(148, 146, 146, 0.589);
 }
 
 .anchorcol2{
@@ -531,18 +618,27 @@ color: rgba(230, 83, 60, 1.00);
 .anchorcol2 h4{
     font-weight: 700;
     font-size: 1.5rem;
-    color: #000000;
+    color: #ffffff;
 }
 .anchorcol2 a{
     text-decoration: none;
     font-weight: 400;
-    font-size: 20px;
-    color: rgba(0, 0, 0, 0.589);
+    font-size: 18px;
+    color: rgba(184, 173, 173, 0.589);
 }
 
 
 .cpr{
     width: 50%;
     text-align: center;
+    color: rgba(184, 173, 173, 0.589);
 
+}
+
+/* Responsive queries */
+
+@media screen and (max-width: 576px) {
+
+
+    
 }
