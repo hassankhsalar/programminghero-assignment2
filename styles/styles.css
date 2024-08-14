@@ -629,6 +629,7 @@ color: rgba(230, 83, 60, 1.00);
 
 
 .cpr{
+    margin-top: 20px;
     width: 50%;
     text-align: center;
     color: rgba(184, 173, 173, 0.589);
@@ -639,6 +640,139 @@ color: rgba(230, 83, 60, 1.00);
 
 @media screen and (max-width: 576px) {
 
+    .banner{
+        width: 100%;
+        height: auto;
+        margin-left: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        
+        
+    }
+    .banner-float2{
+        position: relative;
+        right: 120px;
+        top: 330px;
+    }
+
+    .habits-container{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .habit-cards {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .habits-text h4{
+        text-align: center;
+    }
+
+    .run{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .run-text{
+        width: 70%;
+    }
+    
+    .run-text h3{
+        font-weight: 900;
+        font-size: 2.5rem;
+    }
+    
+    .run-img{
+        background-color: #00000000;
+        padding: 30px 32px 30px 32px;
+        border-radius: 18px;
+    }
+    
+    .run-img img{
+        width: 18.8rem;
+        height: 15.5rem;  
+    }
+
+    .mot-txt{
+        width: 80%;
+       
+    }
+    
+    .mot-images {
+        width: 70%;
+        height: fit-content;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .feet{
+        display: flex;
+        flex-direction: column;
+        width: 70%;
+        /* justify-content: space-between; */
+        
+    }
+
+    .footleft{
+        width: 100%;
+        height: 176px;
+        }
+
+
+        .footright{
+            height: 350px;
+            margin-top: 20px;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .anchorcol1{ 
+            height: 170px;
+            margin-top: 10px;
+           margin-left: 0px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            
+        }
+        .anchorcol1 h4{
+            font-weight: 700;
+            font-size: 1.5rem;
+            color: #ffffff;
+        }
+        
+        .anchorcol1 a{
+            margin-left: 0px;
+        }
+        
+        .anchorcol2{
+            margin-top: 20px;
+            margin-left: 0px;
+            height: 170px;
+            display: flex;
+            flex-direction: column; 
+            justify-content: space-evenly;
+            text-align: center;
+        }
+        .anchorcol2 h4{
+            font-weight: 700;
+            font-size: 1.5rem;
+            color: #ffffff;
+        }
+        .anchorcol2 a{
+            margin-left: 0px;
+        }
+        
+        .cpr{
+           
+            width: 70%;
+        
+        }
 
     
 }
