@@ -636,9 +636,54 @@ color: rgba(230, 83, 60, 1.00);
 
 }
 
+
+.checkbtn{
+    font-size: 1.5rem;
+    color: white;
+    cursor: pointer;
+    display: none;
+}
+
+
+#check:checked ~ .nav-btn {
+    display: block;
+   }
+
+#check {
+    display: none;
+}
+
 /* Responsive queries */
 
 @media screen and (max-width: 576px) {
+
+    .nav-container{
+        margin: 20px 10px 20px 10px;
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .checkbtn{
+        display: contents;
+    }
+
+    .nav-btn{
+        display: none;
+    }
+     .nav-btn {
+        display: none;
+        position: absolute;
+        left: 280px;
+        }
+     .nav-btn {
+        top: 60px;
+        width: 30%;
+    }
+
+
+
+
+
 
     .banner{
         width: 100%;
