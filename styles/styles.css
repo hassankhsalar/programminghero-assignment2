@@ -379,16 +379,18 @@ font-weight: 400;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     
 }
 .bmi-title h2{
-    margin-left: 0px;
+    /* margin-left: 0px; */
     font-size: 3rem;
     font-weight: 900;
     color: #ffffff;
     text-align: left;
 }
 .bmi-title p{
+    margin-top: 14px;
     margin-bottom: 20px;
     color: #ffffff;
     font-weight: 400;
@@ -968,26 +970,30 @@ color: rgba(230, 83, 60, 1.00);
             width: 70%;
         
         }
-
+        
 
         .chart-input{
             height: auto;
             display: flex;
             flex-direction: column;
         }
+
+        .input-title{
+            width: 80%;
+            margin-left: 0px;
+        }
+
         .input-title h2{
+            /* width: 300px; */
             padding-left: 5px;
             font-weight: 900;
             font-size: 18px;
-            color: #ffffff;
-            background-color: rgba(34, 34, 34, 1.00);
         }
         .input-title p{
             padding-left: 5px;
-            padding: 14px 0px 0px 0px;
+            /* width: 300px; */
             font-weight: 400;
             font-size: 14px;
-            background-color: rgba(34, 34, 34, 1.00);
         }
 
         #height{
@@ -1011,5 +1017,6 @@ color: rgba(230, 83, 60, 1.00);
             width: 420px;
             height: 48px;
         }
+        
     
 }
